@@ -1,0 +1,159 @@
+/* toda la página */
+*{
+	margin:0;
+	padding:0;
+	}
+
+viewport{
+	    zoom: 1.0;
+		width: device-width;
+}
+
+img{
+	display:block;
+	margin:auto;
+	}
+
+.logo_kilpi 
+			{width:90%;
+			max-width:400px;
+			margin:20px auto;		
+			}
+
+
+body {
+	background:#CEF6F5;
+	}
+
+.contenedor {
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	}
+
+header {
+		margin:20px auto;
+		width:90%;
+		}
+		
+header h2 {
+		color:#6A0888;
+		clear:both;
+		padding:10px 0px;
+		text-align:center;
+		margin:20px auto;
+		font-family:cursive;
+		font-size:50px;
+		font-style: oblique;
+		}
+		
+ul, ol {
+		list-style:none;
+		}
+	
+header, .main, footer{
+					width:90%;
+					max-width:1000px;
+					margin:10px auto;		
+					}
+
+.navegacion{
+			width:90%;
+			max-width:1000px;
+			margin:10px auto;
+			background:#FDF2E9;
+			text-align: center;
+            }
+
+.navegacion ul {
+              list-style: none;
+			  }
+
+.menu > li {
+			position:relative;
+			display:inline-block;
+			}
+
+.menu > li > a{
+				display:block;
+				padding: 15px 20px;
+				background: #FDF2E9;
+				color:#6C3483;	
+				font-family:fantasy;				
+				text-decoration:none;
+				justify-content: space-evenly;
+				}
+
+.menu li a:hover {
+				  color: #F1948A;
+				  transition: all .3s;
+				  }
+						
+.submenu {
+				background: #FDF2E9;
+				position:absolute;
+				width:150%;
+				visibility:hidden;
+				opacity:0;
+				transition:opacity 1.5s;
+			  }
+
+.submenu ul {
+              list-style:none; 
+			   }
+				  
+.submenu > li > a{
+				display:block;
+				padding:15px;
+				color:black;
+				font-family:fantasy;
+				text-decoration:none;
+				}
+				  
+.menu li:hover .submenu {
+						visibility:visible;
+						opacity:1;
+						}
+			 				
+.main .articles {
+				width:90%;
+				max-width:1000px;
+				float:none;
+				margin:5px auto;
+				}
+
+.main .articles article {
+				padding:10px;
+				margin-bottom:5px;
+				}
+				
+.submenu li a:hover {
+				  color: #F1948A;
+				  transition: all .3s;
+				  }
+
+table {
+		width:90%;
+		max-width:1000px;
+		float:center;
+		margin:5px auto;
+		}
+
+section {
+		padding:20px;
+		width:90%;
+		max-width:1000px;
+		margin:20px auto;
+		}
+			
+footer {
+		background:black;
+		color:white;
+		clear:both;
+		padding:10px 0px;
+		font-size:15px;
+		text-align:center;
+       }
+
+
+
