@@ -140,7 +140,15 @@ header, .main, footer{
 		display:block;
 		}
 
-.tabla > tr > td {
+.tabla tr {
+		width:90%;
+		max-width:1000px;
+		float:center;
+		margin:5px auto;
+		display:block;
+		}
+		
+.tabla tr td {
 		width:90%;
 		max-width:1000px;
 		float:center;
