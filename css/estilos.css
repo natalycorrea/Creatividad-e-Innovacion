@@ -150,6 +150,10 @@ footer {
 		text-align:center;
        }
 
+td {
+    width:90%;
+}
+
 @media only screen and (max-width: 768px) {
  
 .table-responsive table,
