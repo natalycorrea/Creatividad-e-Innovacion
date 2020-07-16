@@ -132,30 +132,6 @@ header, .main, footer{
 				  transition: all .3s;
 				  }
 
-.tabla {
-		width:90%;
-		max-width:1000px;
-		float:center;
-		margin:5px auto;
-		display:block;
-		}
-
-.tabla tr {
-		width:90%;
-		max-width:1000px;
-		float:center;
-		margin:5px auto;
-		display:block;
-		}
-		
-.tabla tr td {
-		width:90%;
-		max-width:1000px;
-		float:center;
-		margin:5px auto;
-		display:block;
-		}
-
 section {
 		padding:20px;
 		width:90%;
