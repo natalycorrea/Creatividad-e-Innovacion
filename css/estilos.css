@@ -90,6 +90,8 @@ header, .main, footer{
 				  }
 						
 .submenu {
+				z-index: 1;
+				position: relative;			
 				background: #FDF2E9;
 				position:absolute;
 				width:150%;
