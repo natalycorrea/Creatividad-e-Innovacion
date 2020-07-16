@@ -148,5 +148,23 @@ footer {
 		text-align:center;
        }
 
-
+@media only screen and (max-width: 768px) {
+ 
+.table-responsive table,
+ 
+.table-responsive thead,
+ 
+.table-responsive tbody,
+ 
+.table-responsive tfoot,
+ 
+.table-responsive tr,
+ 
+.table-responsive th,
+ 
+.table-responsive td {
+ 
+display: block;
+ 
+}
 
