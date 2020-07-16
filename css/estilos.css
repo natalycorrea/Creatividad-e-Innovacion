@@ -132,11 +132,12 @@ header, .main, footer{
 				  transition: all .3s;
 				  }
 
-table {
+.tabla {
 		width:90%;
 		max-width:1000px;
 		float:center;
 		margin:5px auto;
+		display:block;
 		}
 
 section {
